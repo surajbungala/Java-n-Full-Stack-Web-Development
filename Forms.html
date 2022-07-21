@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="passw">Password</label><br>
+            <input type="password" id="passw" required>
+        </div>
+        <div>
+            <label for="country">Country</label><br>
+            <input type="text" id="country" name="country" value="India" disabled required>
+        </div><br>
+        
+        <div>
+            <input type="submit">
+        </div> 
+    </form>
+    <br>
+    <!--Radio and Checkbox Button-->
+    <form>
+        <p>Gender</p>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">Other <br>
+        <!--<input type="submit" value="Submit">-->
+       
+        <p>Course Done</p>
+        <input type="checkbox" name="course" value="java">Java <br>
+        <input type="checkbox" name="course" value="python">Python <br>
+        <input type="checkbox" name="course" value="data structure">Data Structure <br>
+        <br>
+        <input type="submit" name="" value="Submit">
+    </form>
+    <br>
+
+    <!--------Select Tag---------->
+                   <!--Option element-->
+    <form>
+        <p>Months</p>
+        <select>
+            <option value="jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="mar">Mar</option>
+            <option value="apr">Apr</option>
+            <option value="may">May</option>
+            <option value="jun">Jun</option>
+        </select>
+        <br><br>
+
+        <!----Option Group-->
+
+        <select>
+            <optgroup label="Books">
+                <option value="java">Java</option>
+                <option value="data structure">Data Structure</option>
+                <option value="python">Python</option>
+            </optgroup>
+            <optgroup label="Music">
+                 <option value="indian">Indian</option>
+                 <option value="english">English</option>
+                 <option value="punjabi">Pujabi</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+         <br>
+         <br>
+        <!----Text area-------->
+        <label>Feedback</label>
+        <textarea name="feedback" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <!------Submit Button------->
+        <button type="submit">
+            <img src="logo.png" alt="logo" height="50" width="40">
+        </button>
+        <br>
+        <br>
+
+        <!----Audio and Video-->
+        <audio controls>
+            <source src="/Better_Nobody.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        <video controls width="200" height="100">
+            <source src="/Computer Science.mp4" type="video/mp4">
+        </video>
+        <br>
+        <figure>
+            <img src="/front.jpg" alt="Front" width="500" height="300">
+            <figcaption>Fig. 1 Coding </figcaption>
+        </figure>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch new_test",
+            "request": "launch",
+            "mainClass": "OOP.new_test",
+            "projectName": "Java N DSA_2db8ce1e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch PolyCreate",
+            "request": "launch",
+            "mainClass": "OOP.PolyCreate",
+            "projectName": "Java N DSA_2db8ce1e"
+        }
+    ]
+}
