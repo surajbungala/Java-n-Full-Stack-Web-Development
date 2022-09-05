@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+}
+/* Body */
+#body-header{
+    height: 75vh;
+    opacity: 0.8;
+    background-image: url(./images/macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Horizontal List */
+.horizontal-list{
+    list-style: none;
+    padding: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s ;
+}
+
+.nav-menu li a:hover{
+    color: gray;
+    border-bottom: 2px solid white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*Name and Social icons*/
+
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li{
+    border-radius: 50%;
+}
+
+.social-icons li a i{
+    color: red;
+    width: 2rem;
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.social-icons li:hover{
+box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 4px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+section{
+    width: 100%;
+    /*height: 75vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: lightgray;
+}
+
+section:nth-child(2n + 1){
+    background-color: white;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto ;
+    font-weight: 600;
+}
+
+.section-heading span{
+    font-size: 35px;
+    display: inline-block;
+    padding-top: 10px;
+    color: #2857a4;
+    margin-right: 0.5rem;
+}
+
+/*****************Skill Section********************/
+
+.skills-display{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+.skill-progress{
+    width: 16rem;
+    height: 1.8rem;
+    background-color: lightgray;
+    border-radius: 1.8rem;
+    border : 1.4px solid black;
+    box-shadow: 5px 5px 10px 5px #b9b9b9 inset;
+    margin: 14px;
+    overflow: hidden;
+    
+}
+
+/*.skill-progress div{} for all div in skill-progress 
+slill-progress>div{} only parent child of skill-progress*/
+
+.skill-progress>div{
+ border-radius: 22px 0px 0px 20px;
+ box-shadow: 1px 1px 8px 2px #989882;
+}
+
+.skills-name span{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+/***************common margin class**************/
+
+.mb75px{
+    margin-bottom: 75px;
+}
+
+/************Common color class***********/
+
+.mb-blue{
+    background-color: #2857a4;
+}
+
+.mb-green{
+    background-color: #6C6409;
+}
+
+.mb-orange{
+   background-color: #3B0438;
+}
+
+.mb-grey{
+  background-color: blueviolet;
+}
+
+.mb-red{
+  background-color: teal;
+}
+
+.mb-purple{
+   background-color: #5F1708
+   ;
+}
+
+.mb-black{
+    background-color: #2C3E50;
+}
+
+.mb-maron{
+    background-color: #186A3B;
+}
+
+.mb-lightgreen{
+    background-color: red;
+}
+
+/******************Percentage class***********************/
+
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+
+.seventy-five-percent{
+    width: 75%;
+    height: inherit;
+}
+
+.seventy-percent{
+    width: 70%;
+    height: inherit;
+}
+
+.sixty-percent{
+    width: 60%;
+    height: inherit;
+}
+
+
+/*
+.social-icons li a img{
+    color: red;
+    width: 2rem;
+    padding: 8px;
+}
+.social-icons li a img:hover{
+    box-shadow: 0px 4px 6px 4px rgba(230, 196, 196, 0.3);
+}
+*/
+/***************About Section********************/
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    /*box-shadow: 1px 1px 10px 2px lightgray;*/
+}
+
+#about-para{
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 28px;
+    text-align: center;
+}
+
+.text-highlight{
+    color: black;
+    font-weight: 600;
+}
+
+/******************Portfolio Details********************/
+
+.portfolio-container{
+  
+}

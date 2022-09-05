@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/music-logo.png" type="image/x-icon">
+    <title>Music Player</title>
+    <!-- include css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="left-logo">
+                <img src="./images/music-logo.png" alt="logo">
+                <h4><span>Ninja</span>Studio</h4>
+                <h6>Favourites</h6>
+            </div>
+            <div class="menu-icon">
+                <button class="menu-btn"><img src="./images/menu.png" alt="menu"></button>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" placeholder="search">
+                    <img class="search-icon" src="./images/search.png" alt="search">
+                    <img class="mic" src="./images/mic.png" alt="mic" />
+                </div>
+                <div class="notification">
+                    <img src="./images/notification.png" alt="notification">
+                </div>
+                <div class="men">
+                    <img src="./images/men.jpg" alt="men">
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-main">
+                    <div class="close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="search">
+                        <img class="search-icon" src="./images/search.png" alt="search">
+                        <img class="mic" src="./images/mic.png" alt="mic" />
+                    </div>
+                    <div class="notification">
+                        <p>Notifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main body -->
+    <main class="single">
+        <section class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9">
+                        <!-- main top section -->
+                        <div class="single-home">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="./images/single-home.png" alt="single">
+                                </div>
+                                <div class="col-7">
+                                    <div class="main-home">
+                                        <div class="top">
+                                            <div>
+                                                <h1>ColdPlay</h1>
+                                                <h6>British band</h6>
+                                            </div>
+                                            <p>851 followers</p>
+                                        </div>
+                                        <p class="desc">Coldplay, British rock group whose melodic piano-driven anthems lifted it to the top of the pop music world in the early 21st century. Coldplay was formed in 1998 at University College, London, with the pairing of pianist-vocalist Chris Martin.</p>
+                                        <div class="main-bottom">
+                                            <div class="col-8">
+                                                <div class="bottom-top">
+                                                    <div class="bottom-top-btn">
+                                                        <button>Play All</button>
+                                                    </div>
+                                                    <span>Follow</span>
+                                                </div>
+                                                <p>247 Tracks | 128 Albums</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- main song list section -->
+                        <div class="song-list">
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                            <div class="single-queue">
+                                <div class="left">
+                                    <div class="number">01</div>
+                                    <div class="queue">
+                                        <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                        <div class="queue-details">
+                                            <h4>Mirage</h4>
+                                            <p>Else</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <p>4:44</p>
+                                </div>
+                                <div class="heart">
+                                    <img src="./images/heart.png" alt="heart">
+                                    <img src="./images/plus.png" alt="plus" class="plus">
+                                </div>
+                            </div>
+                        </div>
+                        
+                 
+                        
+                    </div>
+                    <div class="col-3">
+                        <div class="home-right">
+                            <div class="right-top">
+                                <h2>Similar Artists</h2>
+                                <p>View all</p>
+                            </div>
+                            <div class="queue-data">
+                                <!-- single queue -->
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">01</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">02</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-2.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">03</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-3.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-top">
+                                <h2>Recently played</h2>
+                                <p>View all</p>
+                            </div>
+                            <div class="queue-data">
+                                <!-- single queue -->
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">01</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">02</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-2.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">03</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-3.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">04</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-1.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">05</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-2.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                                <div class="single-queue">
+                                    <div class="left">
+                                        <div class="number">06</div>
+                                        <div class="queue">
+                                            <img src="./images/thumbnail-3.jpg" alt="thumbnail">
+                                            <div class="queue-details">
+                                                <h4>Mirage</h4>
+                                                <p>Else</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="heart">
+                                        <img src="./images/heart.png" alt="heart">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-left">
+                        <img src="./images/song-thumbnail.png" alt="song-thumbnail" class="thumbnail">
+                        <div class="right-content">
+                            <div class="name-heart-block"><span class="song-name">Imagine by John </span><span class="span-image"><img src="./images/heart.png" alt="heart"></span><span class="span-image"><img src="./images/block.png" alt="block"></span></div>
+                            <p>John Lenon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="footer-main">
+                        <div>
+                            <div class="footer-main-top">
+                                <img src="./images/shuffle.png" alt="music" class="shuffle">
+                                <img src="./images/previous.png" alt="music" class="previous">
+                                <img src="./images/play.png" alt="music" class="play">
+                                <img src="./images/next.png" alt="music" class="next">
+                                <img src="./images/repeat.png" alt="music" class="repeat">
+                            </div>
+                            <div class="footer-main-bottom">
+                                <p>1:39</p>
+                                <input type="range" class="range">
+                                <p>4:45</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-right">
+                        <div class="right-main">
+                            <img src="./images/playlist.png" alt="music" class="playlist">
+                            <img src="./images/pc.png" alt="music" class="pc">
+                            <img src="./images/speaker.png" alt="music" class="speaker">
+                            <input type="range" class="speaker-range" >
+                            <img src="./images/arrow.png" alt="music" class="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="./js/main.js"></script>
+
+</body>
+
+</html>

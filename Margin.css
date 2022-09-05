@@ -1,0 +1,28 @@
+#outerdiv1{
+    background-color: brown;
+    height : 200px;
+    width: 200px;
+    /*margin: 4px 8px 12px 20px;*/
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding: 4px 10px;
+   
+}
+
+#innerdiv {
+    background-color: aqua;
+    height : 100px;
+    width : 100px;
+
+} 
+
+#outerdiv2{
+    background-color: darkgreen;
+    height: 200px;
+    width: 200px;
+}
+p{
+    text-align: center;
+    color: blue;
+    padding: 4px 8px;
+}

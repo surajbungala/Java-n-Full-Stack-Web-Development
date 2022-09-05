@@ -1,0 +1,61 @@
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+/*h3{
+    text-transform: uppercase;
+}
+*/
+/* main */
+main{
+    display: inline-block;
+    width: 70%;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+#blog-desc{
+    color: #314213;
+}
+
+/* aside */
+
+aside{
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+#widget-title{
+    font-size : 20px;
+}
+
+.widget {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.widget input {
+    display: block;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+
+button[type="submit"]{
+    background-color: black;
+    color : white;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}

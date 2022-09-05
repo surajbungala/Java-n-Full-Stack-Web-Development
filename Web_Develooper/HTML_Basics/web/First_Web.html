@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!----</title>--->
     <title>Five tips for Front-end Web Development</title>
-    <!--Anchor Tag to return home page-->
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Internal Style css-->
+    <!--<style>
+        p{
+            color: red;
+            font-size: 20px;
+        }
+    </style>-->
 </head>
 <body>
     <nav>
+        <!--Anchor Tag to return home page-->
         <h3>
             <a href="../index.html">Home</a>
         </h3>
@@ -21,27 +30,42 @@
         </h3>
     </nav>
     <!--Header-->
-    <header>
+    <header id="main-header">
     <!--Logo image-->
-    <a href="https://www.codingninjas.com"><img src="images/logo.png"
-    height="100" width="20%" 
-    alt="Logo"></a>
-    <!--Anchor tag-->
-    <h3><a href="blog.fullstackdevelopment.in">blog.fullstackdevelopment.in</a></h3>
-    <h4> <a href="www.fullsatckdevelopmentblog.com">Full Stck Development Blog</a></h4>
-    <img src="images/headerimage.png" 
-    height="150" width="50%" 
-    alt="Header image">
+        <div>
+            <a href="https://www.codingninjas.com"><img src="images/logo.png"
+            height="100" width="20%" 
+            alt="Logo"></a>
+        </div>
+        <!--Anchor tag-->
+        <div>
+            <h3><a href="blog.fullstackdevelopment.in">blog.fullstackdevelopment.in</a></h3>
+            <p id="blog-desc"></a>Full Stck Development Blog</a></p>
+        </div>
+        <div>
+            <img src="images/headerimage.png" 
+            height="150" width="50%" 
+            alt="Header image">
+        </div>
     </header>
 
     <!--Main-->
     <!---Blog Heading-->
+    <div>
     <main>
-        <h1>Five tips for Front-end Web Development</h1>
-        <img src="images/body.jpg" 
-        height="450" width="100%" 
-        alt="Five tips for front-end web development">
+        <header id="blog-header">
+           <h1>Five tips for Front-end Web Development</h1>
+        </header>
+        <article>
+            <div>
+                <img src="images/body.jpg" 
+                height="450" width="100%" 
+                alt="Five tips for front-end web development">
+            </div>
         <!--Paragraph-->
+        <!--<p style="color: blue; font-size : 30px ">-->
+
+        <!--<p style="color: blue;"><!--Inline Style css-->
         <p>
             Don’t you just love exploring beautiful and neat sites with a clean user 
             interface? While most of us would reply with an assertive ‘YES,’ little, 
@@ -59,7 +83,7 @@
 
         <ol type="1">
         
-            <li><h3>Commenting!</h3></li>
+            <li><h3 class="uppercase cursive" >Commenting!</h3></li>
             <p>Commenting is one such practice that is often ignored by programmers, 
                 especially for codes that are written by multiple programmers. But 
                 remember, commenting is an important part of project you create. 
@@ -68,7 +92,7 @@
                 work. 
             </p>
 
-            <li><h3>Invest in Productive Tools</h3></li>
+            <li><h3 class="uppercase cursive">Invest in Productive Tools</h3></li>
             <p>The Internet is teeming with a host of web development tools, from 
                 browser add-ons to smart plugins, the amount of choices available now 
                 is massive! So, why not invest in some really productive web tools 
@@ -77,7 +101,7 @@
                 short of a godsend for web developers.
             </p>
 
-            <li><h3>Learning Command Line Is The Way To Go.</h3></li>
+            <li><h3 class="uppercase cursive">Learning Command Line Is The Way To Go.</h3></li>
             <p>It is a standard convention among developers to use GUI tools to power the 
                 terminal. What most of them don’t realize is that by doing so, they end up 
                 spending a significant portion of their valuable time in handling GUI 
@@ -88,7 +112,7 @@
                 line tools than with GUI tools. Moreover, automating the terminal with
                 appropriate commands is a great way to save time and energy.</p>
 
-            <li><h3>Always Be Curious.</h3></li>
+            <li><h3 class="uppercase cursive">Always Be Curious.</h3></li>
             <p>A front-end developer has to keep himself/herself updated continuously with 
                 the latest news and innovations in the field. You need to take a proactive 
                 stand and learn new things about front-end development from informative 
@@ -115,7 +139,7 @@
                     in making it big in front-end development, Coding Ninjas has the 
                     perfect course for you! To know more, drop by at our website.</p>      
                 
-                <li><h3>Refactor Your Code From Time To Time.</h3></li>
+                <li><h3 class="uppercase cursive">Refactor Your Code From Time To Time.</h3></li>
                 <p>By “refactoring” your code, you’re only enhancing the code without tampering
                     with its functionality. This will improve the quality and readability 
                     quotient of your code and the more often you do it, your code will 
@@ -124,7 +148,7 @@
                     refactoring offers is that it ensures your code remains free from 
                     plagiarism.</p>
 
-                <li><h3>Automate!</h3></li>
+                <li><h3 class="uppercase cursive">Automate!</h3></li>
                 <p>As a front-end developer, you already have to take care of minute little
                     details that can get overwhelming at times. You have to invest your time on 
                     things like Boilerplate, testing, workflow, dependency management, performance,
@@ -144,7 +168,9 @@
             platform – keep it simple and neat, and don’t forget to create your signature 
             style. And for all you peeps interested in making it big in front-end 
             development. </p>
-
+        
+        <!---
+        <div>
         <section id="comments-section">
             <h2>Comments</h2>
             <div>
@@ -153,7 +179,7 @@
             </div>
             <div>
                 <h4>Name</h4>
-                <p>COmment</p>
+                <p>Comment</p>
             </div>
             <div>
                 <h4>Name</h4>
@@ -161,7 +187,37 @@
             </div>
             <a href="#">Go to top</a>
         </section>
+        </div>
+    -->
+    <!--<p>Second List</p>
+    <ol>
+        <li>
+            <h3>Item 1</h3>
+            <p>para 1</p>
+        </li>
+        <li>
+            <h3>Item 2</h3>
+            <p>Para 2</p>
+        </li>
+    </ol>-->
+
+    </article>
     </main>
+    <aside>
+        <section id="subscription" class="widget">
+            <h4 id="widget-title">Subscribe now to stay updated with new technology trends</h4>
+            <div id="subscribe-form">
+                <form action="">
+                    <label for="input-name">Name</label>
+                    <input id="input-name" type="text" name="name">
+                    <label for="input-email">Email*</label>
+                    <input id="input-email" type="email" name="input-email" required>
+                    <button class="sub-btn" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+    </aside>
+    </div>
     
 </body>
 </html>
